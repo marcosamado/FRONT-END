@@ -1,0 +1,78 @@
+/*****BODY,HEADER h1 h2 y datos personales*****/
+body {
+    background-color: #161616;
+    font-family: Source Sans Pro, sans-serif;
+}    
+header {
+    background-image: url(https://www.armadilloamarillo.com/wp-content/uploads/fondo-de-programacion-web_ok.jpg);
+    background-position-x: 380px;
+    background-position-y: 530px;
+    font-family: Source Sans Pro, sans-serif;
+}
+h1 {
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Source Sans Pro, sans-serif;
+}
+hr {
+    border-radius: 3px;
+    width: 98%;
+    height: 12px;
+    background-color: #000000;
+}
+/***** MAIN*****/
+.Titulos {
+    color: #ffffff;
+    font-size: 35px;
+}
+.datos_personales {
+    border-radius: 10px;
+    background-color: #00000099;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Contenido {
+    color: #e55d51;
+    font-size: 23px;
+    font-weight: bold;
+}
+.posicion {
+    color: #ffffff;
+    font-size: 20px;
+}
+.verde {
+    color: #6ae551;
+}
+.gris {
+    color: rgb(255, 255, 255);
+}
+.blanco {
+    color: white;
+}
+.azul {
+    color: rgb(10, 76, 175);
+}
+.rojo {
+    color: rgba(170, 15, 15, 0.527);
+}
+.amarillo {
+    color: rgb(253, 253, 66);
+}
+.rosado {
+    color: pink;
+}
+/***** Footer *****/
+.Iconos {
+    text-align: center;
+}
+.fa-github {
+    color:#000000;
+}
+.cierre {
+    background-color: #ffffff;
+}
+
+
+
