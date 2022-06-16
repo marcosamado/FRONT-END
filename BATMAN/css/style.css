@@ -1,48 +1,60 @@
 /* header */
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
-body {  
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: Roboto, sans-serif;    
-
 }   
-header {    
-    background-color: #1CD1B0;  
-    
+header {
+
 }
+
 header p {
-    height: 20px;
+    background-color: #1CD1B0;
+    height: 50px;
     padding: 14px;
+    margin-bottom: 0px;
+    font-size: 25px;
 }
 h1 {
+    font-size: 40px;
     background-color: #00669F;
-    height: 100px;
+    height: 120px;
     padding: 35px;
+    margin-top: 0px;
     box-shadow: 0px 7px 8px 0px rgb(185, 185, 185);
 }
 /* main sections article*/
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .art-position {
     position: relative;
     background-color: #F3F3F3;
-    display: inline-block;
     width: 300px;
     height: 530px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: 150px;
     margin-left: 100px;
-    box-shadow: 0px 5px 7px 0px rgb(185, 185, 185);
     margin-bottom: 200px;
+    box-shadow: 0px 5px 7px 0px rgb(185, 185, 185);
 }
-
 h2  {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 .alineotexto {
     padding: 0px 15px 60px 15px;
-
 }
 .boton {
     background-color: #00669F;
@@ -53,26 +65,14 @@ h2  {
     position: relative;
     left: 95px;
     bottom: 35px;
-
 }
-.perfil img {
+.perfil img{
     position: absolute;
     top: 120px;
     left: 93px;
     border-radius: 50%;
+    box-shadow: 0px 3px 3px 0px rgb(185, 185, 185);
     
-}
-.perfil2 img {
-    position: absolute;
-    top: 120px;
-    left: 93px;
-    border-radius: 50%;
-}
-.perfil3 img {
-    position: absolute;
-    top: 120px;
-    left: 93px;
-    border-radius: 50%;
 }
 .like {
     position: absolute;
@@ -85,4 +85,6 @@ footer p {
     height: 50px;
     padding: 15px 0px 10px 20px;
 }
+
+
 
