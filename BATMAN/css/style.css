@@ -41,7 +41,7 @@ section {
     position: relative;
     background-color: #F3F3F3;
     width: 300px;
-    height: 530px;
+    height: 550px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: 150px;
@@ -54,7 +54,13 @@ h2  {
     padding-top: 60px;
 }
 .alineotexto {
+    position:absolute;
+
     padding: 0px 15px 60px 15px;
+}
+.bordeimagen {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .boton {
     background-color: #00669F;
@@ -62,7 +68,7 @@ h2  {
     width: 100px;
     height: 40px;
     padding: 10px 0px 5px 18px;
-    position: relative;
+    position: absolute;
     left: 95px;
     bottom: 35px;
 }
@@ -79,6 +85,7 @@ h2  {
     top: 15px;
     left: 12px;
 }
+/**** FOOTER ****/
 footer p {
     background-color: #00669F;
     color: white;
