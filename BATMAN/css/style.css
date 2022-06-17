@@ -35,7 +35,8 @@ h1 {
 section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .art-position {
     position: relative;
@@ -45,8 +46,7 @@ section {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: 150px;
-    margin-left: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     box-shadow: 0px 5px 7px 0px rgb(185, 185, 185);
 }
 h2  {
@@ -55,7 +55,6 @@ h2  {
 }
 .alineotexto {
     position:absolute;
-
     padding: 0px 15px 60px 15px;
 }
 .bordeimagen {
@@ -78,7 +77,6 @@ h2  {
     left: 93px;
     border-radius: 50%;
     box-shadow: 0px 3px 3px 0px rgb(185, 185, 185);
-    
 }
 .like {
     position: absolute;
@@ -86,12 +84,16 @@ h2  {
     left: 12px;
 }
 /**** FOOTER ****/
-footer p {
+footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #00669F;
     color: white;
-    height: 50px;
     padding: 15px 0px 10px 20px;
+    height: 80px;
 }
-
-
+footer img {
+    margin-right: 1%;
+    width: 100px;
+}
 
