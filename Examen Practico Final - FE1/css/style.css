@@ -1,0 +1,69 @@
+/***** Principal *****/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Be vietnam, sans-serif;
+}
+/* body div {
+    position: relative;
+}
+.fondo{
+    position: absolute;
+    left: 1000px;
+    top: -200px;    
+} */
+/***** header *****/
+header {
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 600px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 500;
+    color: #242E52;
+    font-size: 13px;
+}
+.botones {
+    font-size: 15px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    border:#F3603B;
+    width: 135px;
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+/***** Main  *****/
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 5%;
+}
+h1 {
+    color: #232C50;
+    font-size: 58px;
+
+}
+section article div p {
+    font-size: 17px;
+    font-weight: 500;
+    width: 70%;
+}

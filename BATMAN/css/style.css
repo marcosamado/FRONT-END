@@ -59,13 +59,13 @@ h2  {
 }
 .boton {
     background-color: #00669F;
+    bottom: 35px;
     color: white;
-    width: 100px;
     height: 40px;
+    left: 95px;
     padding: 10px 0px 5px 18px;
     position: absolute;
-    left: 95px;
-    bottom: 35px;
+    width: 100px;
 }
 .perfil img{
     position: absolute;
