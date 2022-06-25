@@ -5,9 +5,9 @@
 }
 body {
     font-family: Be vietnam, sans-serif;
-    background-image: url('../imagenes/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
-    background-position: 700px -190px;
+    /* background-image: url('../imagenes/bg-tablet-pattern.svg');
+    background-repeat: no-repeat; */
+    /* background-position: 700px -190px; */
     /* background-position: 140% 160%; */
 }
 /***** header *****/
@@ -46,7 +46,7 @@ article {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-section article div {
+.article1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -58,12 +58,46 @@ h1 {
     font-size: 58px;
 }
 section article div p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    width: 65%;
+    line-height: 157.1%;
+    width: 70%;
 }
 /***** article 2 *****/
 h2 {
     color: #232C50;
     font-size: 36px;
+}
+.article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 250px;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.numeros {
+    background-color: #F3613C;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 25px;
+    width: 70px;
+    height: 43px;
+}
+article div div h3 {
+    color: #323851;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.texto {
+    color: #B3B2B7;
+    line-height: 30px;
+    font-size: 17px;
+    width: 500px;
 }
