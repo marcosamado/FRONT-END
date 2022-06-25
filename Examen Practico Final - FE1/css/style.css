@@ -5,15 +5,11 @@
 }
 body {
     font-family: Be vietnam, sans-serif;
+    background-image: url('../imagenes/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 700px -190px;
+    /* background-position: 140% 160%; */
 }
-/* body div {
-    position: relative;
-}
-.fondo{
-    position: absolute;
-    left: 1000px;
-    top: -200px;    
-} */
 /***** header *****/
 header {
     height: 100px;
@@ -43,7 +39,7 @@ ul {
     border-radius: 50px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
-/***** Main  *****/
+/***** Main section 1 article 1 *****/
 article {
     display: flex;
     flex-direction: row;
@@ -60,10 +56,14 @@ section article div {
 h1 {
     color: #232C50;
     font-size: 58px;
-
 }
 section article div p {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
-    width: 70%;
+    width: 65%;
+}
+/***** article 2 *****/
+h2 {
+    color: #232C50;
+    font-size: 36px;
 }
