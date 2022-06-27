@@ -7,7 +7,6 @@ body {
     font-family: Be vietnam, sans-serif;
     background-image: url('../imagenes/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
-    /* background-position: 1800px -190px;  */
     background-position: 50vw -20vh;
     background-size: 60%;
 }
@@ -190,4 +189,44 @@ footer {
     background-color: #1E1E26;
     height: 247px;
 }
-
+.divgeneral{
+    padding: 20px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+.subdiv {
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img {
+    width: 160px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 201px;
+    height: 44px;
+    border-radius: 30px;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+}
+div form button {
+    color: white;
+    background-color: #F3603B;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+    height: 42px;
+    width: 63px;
+}
+footer div div p {
+    color: #8C8C94;
+    font-size: 14px;
+}
