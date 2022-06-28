@@ -45,7 +45,13 @@ nav ul {
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 /***** Main section 1 article 1 *****/
-article {
+.titulo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.titulo2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -129,6 +135,7 @@ section>div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 10%;
 }
 section>div>div {
     position: relative;
@@ -170,7 +177,7 @@ section>div>button {
     align-items: center;
     background-color: #F3613C;
     height: 220px;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 section>article>h3 {
     color: white;
@@ -248,5 +255,66 @@ footer div div p {
     header {
         justify-content: space-between;
         padding: 20px;
+    }
+    .article1 img {
+        max-width: 100%;
+    }
+    .article1 {
+        width: 340px;
+        height: 400px;
+        align-items: center;
+        margin-top: 0%;
+        margin-left: 3%;
+    }
+    .titulo1 {
+        flex-direction: column-reverse;
+    }
+    h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+    section article div p {
+        color: #B3B2B7;
+        width: 90%;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+    article div.article2 p{
+        width: 90%;
+        margin-left: 20px;
+    }
+    article div div h3 {
+        font-size: 17px;
+        top: 0px;
+        background-color: #F3613C30;
+        height: 44px;
+        width: 370px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .texto {
+        position: unset;
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 15px;
+        width: 95%;
+    }
+    section>h2 {
+        font-size: 36px;
+    }
+    section>div>.block {
+        display: none;
+    }
+    section>div {
+        top: 80px;
+    }
+    .texto1 {
+        padding: 0;
+    }
+    section>div>button {
+        top: 300px;
     }
 }
