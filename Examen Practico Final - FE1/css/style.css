@@ -130,7 +130,7 @@ section>h2 {
     margin-bottom: 10%;
 }
 section>div {
-    height: 400px;
+    height: 410px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -165,6 +165,9 @@ section>div>div {
     padding: 10px;
     position: absolute;
     top: 60%;
+}
+.fa-solid{
+    display: none;
 }
 section>div>button {
     position: absolute;
@@ -310,11 +313,30 @@ footer div div p {
     }
     section>div {
         top: 80px;
+        margin-bottom: 90px;
     }
     .texto1 {
         padding: 0;
     }
     section>div>button {
-        top: 300px;
+        top: 350px;
+    }
+    .fa-solid {
+        display: block;
+        position: absolute;
+        top: 280px;  
+        color: #F3603B;
+    }
+    .fondo {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 380px;
+    }
+    section>article>h3 {
+        width: 88%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 40px;
     }
 }
