@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 body {
     font-family: Be vietnam, sans-serif;
@@ -203,7 +203,7 @@ footer {
     background-color: #1E1E26;
     height: 247px;
 }
-.divgeneral{
+.divgeneral {
     padding: 20px;
     height: 240px;
     display: flex;
@@ -217,6 +217,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.posicionli {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 .img {
     width: 160px;
@@ -294,7 +301,7 @@ footer p {
         top: 0px;
         background-color: #F3613C30;
         height: 44px;
-        width: 370px;
+        width: 375px;
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
     }
@@ -340,24 +347,44 @@ footer p {
         font-size: 40px;
     }
     footer {
+        position: relative;
         height: 450px;
     }
     .divgeneral {
-        height: 420px;
+        height: 350px;
         flex-direction: column-reverse;
+        padding: 20px 0px 20px 0px;
     }
     footer li {
         font-size: 13px;
     }
     .posicionli {
-        width: 330px;
+        width: 300px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         position: relative;
         right: 15px;
     }
     .posicionlogo {
+        height: 150px;
         flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: inherit;   
+        margin-top: 30px;
+    }
+    footer>div>div>img {
+        max-width: 120px;
+    }
+    .img {
+        width: 290px;
+    }
+    footer div div div img {
+        width: 35px;
+    }
+    footer p {
+        position: absolute;
+        top: 370px;
+        left: 70px;
     }
 }
