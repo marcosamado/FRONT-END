@@ -240,7 +240,7 @@ div form button {
     height: 42px;
     width: 63px;
 }
-footer div div p {
+footer p {
     color: #8C8C94;
     font-size: 14px;
 }
@@ -338,5 +338,26 @@ footer div div p {
         margin-bottom: 20px;
         text-align: center;
         font-size: 40px;
+    }
+    footer {
+        height: 450px;
+    }
+    .divgeneral {
+        height: 420px;
+        flex-direction: column-reverse;
+    }
+    footer li {
+        font-size: 13px;
+    }
+    .posicionli {
+        width: 330px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        right: 15px;
+    }
+    .posicionlogo {
+        flex-direction: column-reverse;
     }
 }
