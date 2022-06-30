@@ -47,6 +47,12 @@ header a {
     height: 50px;
     border-radius: 50px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s ease-in-out;
+}
+.botones:hover {
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    background-color: #1a990f;
 }
 /***** Main section 1 article 1 *****/
 .titulo1 {
