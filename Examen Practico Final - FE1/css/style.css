@@ -31,8 +31,12 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     font-weight: 500;
-    color: #242E52;
-    font-size: 13px;
+    font-size: 14px;
+    padding: 0px;
+}
+header a {
+    color:#242E52;
+    text-decoration: none;
 }
 .botones {
     font-size: 16px;
@@ -217,6 +221,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+footer a {
+    color:#ffffff;
+    text-decoration: none;
 }
 .posicionli {
     width: 500px;
