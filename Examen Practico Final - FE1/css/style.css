@@ -12,6 +12,12 @@ body {
     background-size: 60%;
 }
 /***** header *****/
+main {
+    background-image: url('../imagenes/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: -89% 66%;
+    background-size: 60%;
+}
 header {
     height: 100px;
     display:flex;
@@ -248,7 +254,6 @@ footer a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 .img {
     width: 160px;
@@ -418,6 +423,12 @@ footer p {
         top: 370px;
         left: 70px;
     }
-
-    
+    body {
+        background-position: 5vw -17vh;
+        background-size: 135%;
+    }
+    main {
+        background-position: 210% 24%;
+        background-size: 70%;
+    }  
 }
